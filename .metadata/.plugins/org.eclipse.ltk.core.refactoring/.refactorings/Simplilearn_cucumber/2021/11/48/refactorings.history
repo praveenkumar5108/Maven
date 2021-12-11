@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Products.feature&apos; to &apos;Cucumber_Assessment/src/test/java/features&apos;&#x0A;- Original project: &apos;Simplilearn_cucumber&apos;&#x0A;- Destination element: &apos;Cucumber_Assessment/src/test/java/features&apos;&#x0A;- Original element: &apos;Products.feature&apos;" description="Copy file" destination="=Cucumber_Assessment/src\/test\/java&lt;features" element1="src/test/java/features/Products.feature" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1637560994519" units="0" version="1.0"/>
+</session>

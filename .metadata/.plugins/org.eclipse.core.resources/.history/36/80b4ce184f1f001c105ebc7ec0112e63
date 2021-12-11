@@ -1,0 +1,28 @@
+package test;
+
+public class Employee {
+	
+	public int EmpId;
+	public int Salary;
+	
+	static String department  = "Technology";
+	
+  
+	public Employee() {
+		System.out.println("INSIDE EMPLUEE");
+	}
+	
+	public Employee(int empid, int sal) {
+		this.EmpId = empid;
+		//this.department = dep;
+		this.Salary = sal;
+	}
+	
+	
+	public void display() {
+		System.out.println("Employee id is:" + " " + EmpId);
+		System.out.println("Employee salary is :"  + " " + Salary);
+		System.out.println("Employee dep is :" + " " + Employee.department);
+	}
+
+}

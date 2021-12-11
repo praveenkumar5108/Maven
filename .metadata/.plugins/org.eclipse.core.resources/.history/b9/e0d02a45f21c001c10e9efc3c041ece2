@@ -1,0 +1,20 @@
+package test;
+
+public class ThrowExamples {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int age = 17;
+		
+		if(age < 18) {
+			
+			throw new ArithmeticException("Age not allowed");
+			
+		}else {
+			System.out.println("Eligiblr");
+		}
+
+	}
+
+}

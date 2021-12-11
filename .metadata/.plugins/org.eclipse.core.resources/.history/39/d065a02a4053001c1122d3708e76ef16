@@ -1,0 +1,5 @@
+package restAPIBDD;
+
+public class GetRequest {
+
+}

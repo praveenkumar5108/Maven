@@ -1,0 +1,28 @@
+package test;
+
+public class RunnerClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       
+		Employee emp1 = new Employee();
+		
+		emp1.EmpId = 2323;
+		emp1.Salary = 30000;
+		//emp1.department = "CSE";
+		//emp1.display();
+		
+		
+		Employee emp2 = new Employee(23232,40484);
+		
+		//emp2 = null; this causes null pointer exception
+		
+		Employee emp3 = new Employee("Praveen", 20, "Nellore", 2392, 54646);
+		
+		emp3.display();
+		
+		emp2.display();
+		
+	}
+
+}

@@ -1,0 +1,62 @@
+package test;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Deque;
+import java.util.Iterator;
+import java.util.LinkedList;
+
+
+public class ListExamples {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList<String> list = new ArrayList<String>();
+		
+		list.add("praveen");
+		list.add("elon");
+		list.add("kumar");
+		list.add("jeff");
+		list.add("praveen");
+		
+		System.out.println(list);
+		System.out.println(list.get(list.size()-1));
+		
+		
+		for(int i = 0; i <= list.size()-1;i++) {
+			System.out.println(list);
+		}
+		
+		Iterator itr = list.iterator();
+		
+		while(itr.hasNext()) {
+			 System.out.println(itr.next());
+		}
+		
+		for(String name: list) {
+			System.out.println(name);    
+		}
+		
+		//sorting in assending order
+		Collections.sort(list);
+		System.out.println(list);
+		
+		//reverse
+		Collections.sort(list,Collections.reverseOrder());
+		//Collections.reverse(list);
+		System.out.println(list);
+		
+		LinkedList<String> list1 =  new LinkedList<String> ();
+		
+		list1.add("vijay");
+		list1.add("prudvi");
+		list1.add("pradeep");
+
+		 list1.addFirst("siva");
+		 System.out.println(list1);
+		 
+		 
+	}
+
+}

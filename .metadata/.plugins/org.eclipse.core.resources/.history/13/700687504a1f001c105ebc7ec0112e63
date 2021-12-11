@@ -1,0 +1,14 @@
+package test;
+
+public class Employee {
+	
+	public int EmpId;
+	public int Salary;
+	
+	
+	public void display() {
+		System.out.println("Employee id is:" + " " + EmpId);
+		System.out.println("Employee salary is :"  + " " + Salary);
+	}
+
+}

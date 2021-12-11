@@ -1,0 +1,8 @@
+package test;
+
+public class Employee {
+	
+	private int EmpId;
+	private int Salary;
+
+}

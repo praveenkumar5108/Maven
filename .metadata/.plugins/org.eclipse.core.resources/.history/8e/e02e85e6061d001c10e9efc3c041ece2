@@ -1,0 +1,22 @@
+package test;
+
+import java.util.HashSet;
+
+public class SetExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		HashSet<String> set = new HashSet<String>();
+		set.add("nmae1");
+		set.add("nmae2");
+		set.add("nmae3");
+		set.add("nmae4");
+		set.add("nmae1");
+		set.add(null);
+		
+		System.out.println(set);
+
+	}
+
+}
